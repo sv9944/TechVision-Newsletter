@@ -1,0 +1,155 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6f61;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ff6f61;
+    color: #fff;
+    background-image: url('pattern.png'); /* Add a subtle pattern */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff6f61;
+}
+
+/* Style the about section */
+.about {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the services section */
+.services {
+    background-color: #ffcc29;
+    color: #333;
+    padding: 40px;
+}
+
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Style the contact section */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
